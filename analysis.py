@@ -15,6 +15,9 @@ df.isnull().sum() # no null values in dataset
 df.describe().sum() # 150 entries and total 7 colums
 
 
+print(df.duplicated())
+
+
 """
 Store_Area_sqft          12264.047859
 Marketing_Spend_Lakhs      183.604704
