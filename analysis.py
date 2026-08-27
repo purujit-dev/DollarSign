@@ -53,3 +53,6 @@ city_summary = df.groupby('City').agg(
 
 print(city_summary.to_string(index=False))
 
+
+
+
